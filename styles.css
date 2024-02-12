@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px;
+}
+
+#si-btn {
+  background-color: #4CAF50; /* Verde */
+  border: none;
+  color: white;
+}
+
+#no-btn {
+  background-color: #f44336; /* Rojo */
+  border: none;
+  color: white;
+}
