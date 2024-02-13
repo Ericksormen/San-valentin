@@ -4,15 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>¿Quieres ser mi San Valentín?</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    img {
+      max-width: 100%;
+      max-height: 50vh;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 5px;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>¿Quieres ser mi San Valentín?</h1>
+  <img src="https://imgur.com/RYgNvqb" alt="GIF">
+  <div>
     <button id="si-btn">Sí</button>
     <button id="no-btn">No</button>
-    <img id="imagen" src="https://imgur.com/a/rxehUEO" alt="Imagen inicial">
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
